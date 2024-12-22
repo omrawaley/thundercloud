@@ -15,7 +15,13 @@ function Home() {
         <Section
             title="Supercharged by Blockchain"
             body="Data is encrypted using state-of-the-art blockchain technology, ensuring security, credibility, and privacy."
-            button="Learn More"
+            button=""
+            />
+
+        <Section
+            title="Make Big Profit"
+            body="Earn profit by reusing your old storage devices and contributing the space to the network as a Node™."
+            button="Guide"
             />
 
         <Section
