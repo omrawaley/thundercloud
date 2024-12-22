@@ -7,7 +7,7 @@ type TypographyProps = {
   variant: TypographyVariant;
   className?: string;
   children: React.ReactNode;
-} & React.HTMLAttributes<HTMLHeadingElement | HTMLParagraphElement>;
+} & React.HTMLAttributes<HTMLHeadingElement | HTMLParagraphElement | HTMLQuoteElement>;
 
 const variantStyles: Record<TypographyVariant, string> = {
   h1: "scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl",
