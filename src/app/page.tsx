@@ -1,6 +1,5 @@
 import Navbar from "@/components/Navbar";
 import Section from "@/components/Section";
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 function Home() {
   return (
