@@ -6,6 +6,7 @@ function Home() {
     <div>
         <Navbar />
 
+        <div className="">
         <Section
             title="Convenient Cloud Storage"
             body={`Distributed and encrypted across localised user-hosted servers.${"\n\n"}Cheaper. Smarter. Integrated.${"\n"}This is ThunderCloud.`}
@@ -15,7 +16,7 @@ function Home() {
         <Section
             title="Supercharged by Blockchain"
             body="Data is encrypted using state-of-the-art blockchain technology, ensuring security, credibility, and privacy."
-            button=""
+            button="Learn More"
             />
 
         <Section
@@ -29,6 +30,7 @@ function Home() {
             body="Store your files on the cloud with Chain™. Manage everything from Vault™."
             button="Learn More"
             />
+        </div>
     </div>
   );
 }
