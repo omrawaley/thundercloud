@@ -1,11 +1,12 @@
 import Image from "next/image";
 import { Typography } from "./Typography";
 import { Button } from "./ui/button";
+import { ReactElement } from "react";
 
 interface SectionProps {
-    title: string,
-    body: string,
-    button: string,
+    title: string | ReactElement,
+    body: string | ReactElement,
+    button: string | ReactElement,
     image: string,
     dir: 'left' | 'right',
 }

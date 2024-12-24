@@ -3,20 +3,27 @@
 import Navbar from "@/components/Navbar";
 import Section from "@/components/Section";
 import { Typography } from "@/components/Typography";
+import { FlipWords } from "@/components/ui/flip-words";
 import WorldMap from "@/components/ui/world-map";
 
 function Home() {
-  return (
+    const words = ["Convenient", "Better", "Faster", "Smarter", "Cheaper", "Safer", "Flexible", "Modular"];
+
+    return (
     <div>
         <Navbar />
 
         <div className="">
-        <Section
-            title="Convenient Cloud Storage"
-            body={`Distributed and encrypted across localised user-hosted servers.${"\n\n"}Cheaper. Smarter. Integrated.${"\n"}This is ThunderCloud.`}
-            button="Enter the Future"
-            image="/NetworkImage.png"
-            dir="right"
+            <Section
+              title={
+                <>
+                  <FlipWords words={words} /> <br></br> Cloud Storage
+                </>
+              }
+              body={`Distributed and encrypted across localised user-hosted servers.${"\n\n"}Cheaper. Smarter. Integrated.${"\n"}This is ThunderCloud.`}
+              button="Enter the Future"
+              image="/NetworkImage.png"
+              dir="right"
             />
 
         <Section
@@ -84,7 +91,7 @@ function Home() {
             />
         </div>
     </div>
-  );
+    );
 }
 
 export default Home;
