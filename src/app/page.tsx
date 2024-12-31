@@ -31,7 +31,7 @@ function Home() {
             title="Supercharged by Blockchain"
             body="Data is encrypted using state-of-the-art blockchain technology, ensuring security, credibility, and privacy."
             button="Learn More"
-            image="/NetworkImage.png"
+            image="/BlockchainImage.png"
             dir="left"
             />
 
@@ -78,8 +78,8 @@ function Home() {
         <Section
             title="Make Big Profit"
             body="Earn profit by reusing your old storage devices and contributing the space to the network as a Node."
-            button="Guide"
-            image="/NetworkImage.png"
+            button="Learn More"
+            image="/ServerImage.png"
             dir="right"
             />
 
@@ -87,7 +87,7 @@ function Home() {
             title="Fleshed-Out Ecosystem"
             body="Store your files on the cloud with Chain™. Manage everything from Vault™."
             button="Learn More"
-            image="/NetworkImage.png"
+            image="/EcosystemImage.png"
             dir="left"
             />
         </div>
